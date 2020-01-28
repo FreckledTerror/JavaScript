@@ -15,7 +15,7 @@ console.log(emailAddress);
 console.log("I am using JS in " + CLASS);
 
 //Grabbed a random number generator to make it a random number from 10 to 20
-for(i = 0; i++; i <= Math.floor(Math.random() * (20 - 10 + 1) + 10))
+for(i = 0; i <= Math.floor(Math.random() * (20 - 10 + 1) + 10); i++)
 {
     console.log("For loop: " + i)
 }
