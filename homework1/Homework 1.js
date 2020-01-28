@@ -5,6 +5,7 @@ let myName = "Hunter Lopez";
 let myMajor = "General CIS";
 let myFact = "I'm a Mexican Ginger";
 let loop = 0;
+let i;
 
 //Tested the basic facts to see if they worked
 //console.log(myName + "\n" + myMajor + "\n" + myFact);
@@ -13,12 +14,13 @@ console.log(emailAddress);
 
 console.log("I am using JS in " + CLASS);
 
-for(let i = 0; i++; i >= 10)
+//Grabbed a random number generator to make it a random number from 10 to 20
+for(i = 0; i++; i <= Math.floor(Math.random() * (20 - 10 + 1) + 10))
 {
     console.log("For loop: " + i)
 }
 
-while(loop >= 10)
+while(loop <= Math.floor(Math.random() * (20 - 10 + 1) + 10))
 {
     console.log("While loop: " + loop);
     loop++;
