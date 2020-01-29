@@ -63,6 +63,22 @@ else
 if(subTotal > 1000)
     console.log("You get a big spender discount!");*/
 
+//Switch Statement
+console.log("Switch Start!");
+myNumber = 7;
+switch(myNumber)
+{
+    case 1:
+        console.log(1);
+        break;
+    case 42:
+        console.log(42);
+        break;
+    default:
+        console.log("Default");
+}
+console.log("Switch End!");
+
 //For Loop Stuff
 /*for(let c = 0; c <= 5; c++)
 {
@@ -78,6 +94,14 @@ for(let i in myFavoriteThings)
 let counter = 5;
 while(counter > 0)
 {
-    console.log("Counter:", counter);
     counter--;
+    console.log("Counter:", counter);
 }
+
+//Do While Loop
+let count = 0;
+do
+{
+    console.log("Count:", count);
+    count++;
+}while(count < 5)
