@@ -5,7 +5,8 @@
  * @author      Hunter Lopez <hwlopez@hawkmail.hfcc.edu>
  * @date        2020.01.30
  * @link
-    */
+ * @grade       12 / 10
+ */
 
 //Question 1
 const favBook = "Dragon Rider";
