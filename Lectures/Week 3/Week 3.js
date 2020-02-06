@@ -12,15 +12,48 @@ let points = 0;
 function wrongAnswer( )
 {
     console.log( "WRONG!" );
-    points--;
+    minusPoint();
 }
 
 // Correct Answer Function
 function correctAnswer( )
 {
     console.log( "CORRECT!" );
-    points++;
+    addPoint();
 }
+
+// General Point Functionality
+function minusPoint( )
+{
+    points--;
+    updateDisplay( );
+}
+function addPoint( )
+{
+    points++;
+    updateDisplay( );
+}
+
+// Update Display
+function updateDisplay( )
+{
+    let ptsLbl = document.getElementById("pointsLabel");
+    //ptsLbl.innerHTML = "Points: " + points;
+    ptsLbl.innerHTML = points;
+}
+
+
+
+
+let cheatBtn0 = document.getElementById("cheat0");
+cheatBtn0.addEventListener( "click", minusPoint );
+let cheatBtn1 = document.getElementById("cheat1");
+cheatBtn1.addEventListener( "click", addPoint );
+
+
+
+
+
 
 // Setup Question 1
 let button2 = document.getElementById("q1a2");
