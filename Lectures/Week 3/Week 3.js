@@ -22,7 +22,6 @@ function correctAnswer( )
     points++;
 }
 
-// TODO : Can this be optimized better for less copy & paste!
 // Setup Question 1
 let button2 = document.getElementById("q1a2");
 let button3 = document.getElementById("q1a3");
