@@ -1,13 +1,13 @@
-let btn1 = document.getElementById("number1");
-let btn2 = document.getElementById("number2");
-let btn3 = document.getElementById("number3");
-let btn4 = document.getElementById("number4");
-let btn5 = document.getElementById("number5");
-let btn6 = document.getElementById("number6");
-let btn7 = document.getElementById("number7");
-let btn8 = document.getElementById("number8");
-let btn9 = document.getElementById("number9");
-let btn0 = document.getElementById("number0");
+let btn1 = document.getElementById("uno");
+let btn2 = document.getElementById("dos");
+let btn3 = document.getElementById("tres");
+let btn4 = document.getElementById("cuatro");
+let btn5 = document.getElementById("cinco");
+let btn6 = document.getElementById("seis");
+let btn7 = document.getElementById("siete");
+let btn8 = document.getElementById("ocho");
+let btn9 = document.getElementById("nueve");
+let btn0 = document.getElementById("cero");
 let add = document.getElementById("add");
 let subtract = document.getElementById("subtract");
 let multiply = document.getElementById("multiply");
@@ -193,15 +193,23 @@ function solvingProblem()
     {
         case 1:
             answer = num1 + num2;
+            console.log("Answer: ", answer);
+            operator = 0;
             break;
         case 2:
             answer = num1 - num2;
+            console.log("Answer: ", answer);
+            operator = 0;
             break;
         case 3:
             answer = num1 * num2;
+            console.log("Answer: ", answer);
+            operator = 0;
             break;
         case 4:
             answer = num1 / num2;
+            console.log("Answer: ", answer);
+            operator = 0;
             break;
         default:
             alert("You messed up, buddy. Try again.");
