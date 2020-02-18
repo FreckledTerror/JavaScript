@@ -1,3 +1,10 @@
+/**
+ * Author   : Hunter
+ * Date     : 
+ * Grade    : 10 / 10
+ * Notes    : Nice work, but I did find a bug. Try to add 10 + 65.
+ */
+
 let btn1 = document.getElementById("uno");
 let btn2 = document.getElementById("dos");
 let btn3 = document.getElementById("tres");
