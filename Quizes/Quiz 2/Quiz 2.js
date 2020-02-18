@@ -5,8 +5,8 @@
  * @author      Chad Banks <crbanks1@hfcc.edu>
  * @author      Hunter Lopez <hwlopez@hawkmail.hfcc.edu>
  * @date        2020.02.13
- * @link
-    */
+ * @grade       10 / 10
+ **/
 
 function multiplication(num1, num2)
 {
