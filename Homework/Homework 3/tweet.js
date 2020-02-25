@@ -4,6 +4,9 @@
  * @category    Homework 3
  * @author      Hunter Lopez <hwlopez@hawkmail.hfcc.edu>
  * @date        2020.02.18
+ * @grade       10 / 10
+ * @notes       This is looking good, but test it out with multiple tweets.
+ *                  Do those variables update being outside the function like tweetBuilder function that?
  **/
 
 let btnTwitter = document.getElementById("tweet");
