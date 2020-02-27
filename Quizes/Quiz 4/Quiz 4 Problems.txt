@@ -1,0 +1,17 @@
+// Use my page for all examples below.
+// https://cislinux.hfcc.edu/~crbanks1
+
+// 2 pts
+// 1. Use the JS to get my footer into a variable called foot.
+
+
+// 3 pts
+// 2. Add an event to my footer to fire a method when clicked. Any method name is fine.
+
+
+// 2 pts
+// 3. Store my title element in a variable called myTitle.
+
+
+// 3 pts
+// 4. Use JS to change my Title and Footer to day "This Class rocks!"
