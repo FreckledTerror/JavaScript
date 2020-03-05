@@ -5,7 +5,8 @@
  * @author      Chad Banks <crbanks1@hfcc.edu>
  * @author      Hunter Lopez <hwlopez@hawkmail.hfcc.edu>
  * @date        2020.02.27
- * @grade
+ * @grade       10 / 10
+ * @notes       Nice work!
  */
 
 let foot = document.getElementById("myFoot");
