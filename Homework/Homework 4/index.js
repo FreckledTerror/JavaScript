@@ -1,5 +1,13 @@
 let PageManager = {
-        init: function ()
+
+    btn1: null,
+    btn2: null,
+    btn3: null,
+    txt1: null,
+    txt2: null,
+    dropDown: null,
+
+    init: function ()
         {
             PageManager.btn1 = document.getElementById("btn1");
             PageManager.btn1 = document.addEventListener("click", PageManager.btn1Clicked);
