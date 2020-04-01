@@ -4,6 +4,7 @@
  * @category    Midterm
  * @author      Hunter Lopez <hwlopez@hawkmail.hfcc.edu>
  * @date        2020.03.05
+ * @grade       100 / 100
  **/
 
 let Blueit = {
