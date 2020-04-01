@@ -6,7 +6,8 @@ let ErrorHandler =
             ErrorHandler.errorMessage = "<span style='color:red'>Sorry, an error occurred!</span>";
             ErrorHandler.jokeMesage = "What has two thumbs and is happy? This guy!";
             ErrorHandler.btn = document.getElementById("btn1");
-            btn.addEventListener("click", ErrorHandler.checkDate);
+            ErrorHandler.btn.addEventListener("click", ErrorHandler.checkDate);
+            ErrorHandler.div = document.getElementById("div1");
         },
 
         checkDate: function ()
@@ -38,6 +39,7 @@ let ErrorHandler =
             catch(err)
             {
                 console.log(err);
+                ErrorHandler.div.append(err);
             }
         }
 
