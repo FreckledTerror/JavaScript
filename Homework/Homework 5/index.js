@@ -1,3 +1,11 @@
+/**
+ * Homework 5
+ *
+ * @category    Homework 3
+ * @author      Hunter Lopez <hwlopez@hawkmail.hfcc.edu>
+ * @date        2020.04.02
+ **/
+
 let ErrorHandler =
     {
         init: function ()

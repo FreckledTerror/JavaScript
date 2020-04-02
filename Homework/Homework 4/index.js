@@ -1,3 +1,11 @@
+/**
+ * Homework 4
+ *
+ * @category    Homework 3
+ * @author      Hunter Lopez <hwlopez@hawkmail.hfcc.edu>
+ * @date        2020.04.02
+ **/
+
 let PageManager = {
 
     btn1: null,
@@ -7,6 +15,9 @@ let PageManager = {
     txt2: null,
     dropDown: null,
 
+    /*For some reason, this just isn't working, and I'm not sure why. I spent 2 or 3 hours online trying to find
+    out how to do this, and I saw nothing wrong with my code, but it's broken in ways I can't fix. I know this
+    isn't well done, but I can't do anymore than I've done*/
     init: function ()
         {
             PageManager.btn1 = document.getElementById("btn1");
