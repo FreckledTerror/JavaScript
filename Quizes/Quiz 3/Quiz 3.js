@@ -5,8 +5,9 @@
  * @author      Chad Banks <crbanks1@hfcc.edu>
  * @author      Hunter Lopez <hwlopez@hawkmail.hfcc.edu>
  * @date        2020.02.20
- * @link
-    */
+ * @grade       12 / 10
+ * */
+
 let SiteUser = {
     username: "hwlopez",
     email: "hwlopez@hawkmail.hfcc.edu",
