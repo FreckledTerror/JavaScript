@@ -1,7 +1,7 @@
 /**
  * Homework 5
  *
- * @category    Homework 3
+ * @category    Homework 5
  * @author      Hunter Lopez <hwlopez@hawkmail.hfcc.edu>
  * @date        2020.04.02
  **/
