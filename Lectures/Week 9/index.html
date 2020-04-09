@@ -1,39 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
     <title>Week 9</title>
-    <script src="index.js"></script>
+    <script src="index.js" ></script>
+    <script src="lab.js" ></script>
 </head>
 <body>
-    <h1>Week 9: Validating Form Data</h1>
-    <form action="#" method="post">
+<h1>Week 9 : Validating Form Data</h1>
 
-        <label for="contactName">Your Name:</label>
-        <input type="text" id="contactName" name="contactName" placeholder="Enter name...">
+<form action="index.html" method="GET" id="contactForm" >
+    <label for="contactName" >Your Name:</label>
+    <input type="text" id="contactName" name="contactName" placeholder="Enter name" >
 
-        <br><br>
+    <br><br>
 
-        <label for="contactEmail">Your Name:</label>
-        <input type="email" id="contactEmail" name="contactEmail" placeholder="Enter email...">
+    <label for="contactEmail" >Email:</label>
+    <input type="email" id="contactEmail" name="contactEmail" placeholder="Enter email" >
 
-        <br><br>
+    <br><br>
 
-        <label for="contactReason">Contact Reason:</label>
-        <select id="contactReason">
+    <label for="contactZip" >Zip:</label>
+    <input type="number" id="contactZip" name="contactZip" placeholder="Enter zip" >
+    <br><br>
 
-            <option>Deposit</option>
-            <option>Interest</option>
-            <option>Withdraw</option>
-            <option>Loan</option>
+    <label for="contactDate" >When To Reach You:</label>
+    <input type="datetime-local" id="contactDate" name="contactDate" >
 
-        </select>
+    <br><br>
 
-        <br>
+    <label for="contactReason" >Contact Reason:</label>
+    <select id="contactReason" name="contactReason" >
+        <option>-- Select An Option --</option>
+        <option>Deposit</option>
+        <option>Interest</option>
+        <option>Loan</option>
+        <option>Withdraw</option>
+    </select>
 
-        <input type="submit" name="contactSubmit" placeholder="Send Request">
+    <br><br>
 
-    </form>
+    <label for="contactMessage" >Contact Message:</label>
+    <textarea id="contactMessage" name="contactMessage"></textarea>
 
+    <br><br>
+
+    <input type="submit" name="contactSubmit" value="Send Request" >
+</form>
+
+
+<br><br>
+
+<div style="border: 1px solid black;" >
+    <button id="debugButton" >Debug</button>
+</div>
 </body>
 </html>
