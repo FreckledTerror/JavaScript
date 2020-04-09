@@ -1,0 +1,25 @@
+// 1 pt
+// 1. Call a validateAndSaveEmail function when the email input loses focus (on blur).
+
+
+// 3 pts
+// 2. Create a function called validateAndSaveEmail that checks the value of the email text box.
+//          If the value is less than 5 characters then throw an error.
+//          If the value does not contain an @ or . then throw an error.
+//          The function does not need to save the email or do anything else.
+
+
+// 1 pt
+// 3. Ensure a onFavCoinChange function executes every time the favoriteCoin select box changes (on change).
+
+
+// 3 pts
+// 4. Create a function called onFavCoinChange that checks the value of the select drop down.
+//          If the value is Bitcoin, console.log this message "The coin to rule them all!"
+//          If the value is Ethereum, console.log this message "Solidity smart contracts for the win!"
+//          If the value is XRP, console.log this message "Bold move cotton!"
+//          If the value is Other, console.log this message "You may be making a huge mistake..."
+
+
+// 2 pts
+// 5. Create an event that fires both functions created above when the form is submitted.
