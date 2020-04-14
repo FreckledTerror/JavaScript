@@ -5,7 +5,7 @@
  * @author      Chad Banks <crbanks1@hfcc.edu>
  * @author      Hunter Lopez <hwlopz@hawkmail.hfcc.edu>
  * @date        2020.04.09
- * @grade
+ * @grade       8 / 10
  **/
 
 let txtEmail;
@@ -20,6 +20,14 @@ function init()
     dpdCoinChange = document.getElementById("favoriteCoin");
     dpdCoinChange.addEventListener("change", onFavCoinChange);
 
+    form = document.getElementById("myCryptoForm");
+    form.addEventListener("submit", onSubmit);
+
+}
+function onSubmit()
+{
+    validateAndSaveEmail();
+    onFavCoinChange();
 }
 
 function validateAndSaveEmail()

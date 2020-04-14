@@ -106,7 +106,7 @@ jspm_packages
 
 # Mac OS
 .DS_Store
- **/.DS_Store
+**/.DS_Store
 
 # PhpStorm
 .idea
