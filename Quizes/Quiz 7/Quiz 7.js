@@ -32,8 +32,11 @@ div.delay(5000).fadeOut('slow');
 
 // 3 pts
 // 6. List three more methods below that are available via the jQuery API.
+div.change();
+div.detach();
+div.finish();
 /**
-    There are:
+    Brief description of what they do:
     1. change() It binds the change event handler
     2. detach() It removes the set of matched elements from the DOM
     3. finish() It ends the animations being done for the matched elements
