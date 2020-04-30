@@ -5,7 +5,7 @@
  * @author      Chad Banks <crbanks1@hfcc.edu>
  * @author      Hunter Lopez <hwlopez@hawkmail.hfcc.edu>
  * @date        2020.04.23
- * @grade
+ * @grade       11 / 10
  */
 
 // 2 pts
@@ -24,7 +24,7 @@ loadedXp = localStorage.getItem("plyrXp");
 
 // 3 pts
 // 4. Create a cookie called "email" and store the string "crbanks1@hfcc.edu" in it, this cookie should expire in 30 days.
-document.cookie = "email = crbanks; expires=Sat, 23 May 2020 00:00:00 UTC; path=/";
+document.cookie = "email = crbanks@hfcc.edu; expires=Sat, 23 May 2020 00:00:00 UTC; path=/";
 
 // 1 pt
 // E. Create a sessionStorage key called "session-page-visits" and store the number "42" in it.
