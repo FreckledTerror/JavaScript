@@ -5,7 +5,7 @@
  * @author      Chad Banks <crbanks1@hfcc.edu>
  * @author      Hunter Lopez <hwlopez@hawkmail.hfcc.edu>
  * @date        2020.04.30
- * @grade
+ * @grade       12 / 10
  */
 let cartData = {
         name: "Nerf Gun",
@@ -29,7 +29,7 @@ $.ajax({
 // 2 pts
 // 4. Assume the api responded and the resulting response string is stored in a variable called responseString.
 //          Parse the response string into an object and store it in a variable called responseObj.
-let responseObj ={ JSON.parse(responseStrng) };
+let responseObj = JSON.parse(responseStrng);
 
 
 // 2 pts
