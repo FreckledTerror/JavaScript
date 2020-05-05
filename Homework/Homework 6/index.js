@@ -4,6 +4,7 @@
  * @category    Homework 6
  * @author      Hunter Lopez <hwlopez@hawkmail.hfcc.edu>
  * @date        2020.04.07
+ * @grade       10 / 10
  **/
 
 let PageHandler =
