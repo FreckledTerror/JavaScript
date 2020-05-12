@@ -7,7 +7,7 @@
  * @author      Chad Banks <crbanks1@hfcc.edu>
  * @author      Hunter Lopez <hwlopez@hawkmail.hfcc.edu>
  * @date        2020.05.07
- * @grade
+ * @grade       10 / 10
  */
 try {
 
