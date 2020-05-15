@@ -4,7 +4,7 @@
  * @category    Homework 8
  * @author      Hunter Lopez <hwlopez@hawkmail.hfcc.edu>
  * @date        2020.05.07
- * @grade
+ * @grade       10 / 10
  **/
 
 let ajaxWorker =
